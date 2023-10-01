@@ -16,7 +16,7 @@ const Sidebar = ({ children }: any) => {
     <div className='container'>
         <div style={{width: isOpen?'250px' : '50px'}} className='sidebar'>
           <div className='top-section'>
-            <img style={{display: isOpen?'block' : 'none'}} className='logo' src='/ats-logo.svg' alt='This is App Logo'/>
+            <img style={{display: isOpen?'block' : 'none'}} className='logo' src='./ats-logo.svg' alt='This is App Logo'/>
             <h1 style={{display: isOpen?'block' : 'none'}} className='logo-name'>ATS</h1>
             <div style={{marginLeft: isOpen?'100px' : '-4px'}} className='bars'>
               <MenuOutlined onClick={toggle} />
